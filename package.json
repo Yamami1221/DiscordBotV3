@@ -10,7 +10,8 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint --ext .ts src/",
     "start": "npx tsc && node build/main",
-    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"npx tsc && node build/main\""
+    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"npx tsc && node build/main\"",
+    "prod": "node build/main"
   },
   "devDependencies": {
     "@eslint/js": "^9.2.0",
